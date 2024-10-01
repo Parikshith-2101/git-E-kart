@@ -1,9 +1,3 @@
-main{
-    border:1px solid red;
-}
-.card-container{border:1px solid black;}
-.left-container{border:1px solid yellow;}
-.right-container{border:1px solid green;}
 *{
     margin:0;
     padding:0;
@@ -204,9 +198,8 @@ footer{
 
 /*main*/
 .main-content{
-    border:1px solid blue;
     padding:14px 95px 0;
-    margin:0 auto 16px;
+    margin:0 auto 2px;
 }
 .content-title{
     font-size:18px;
@@ -227,12 +220,15 @@ footer{
     background:#fff;
     overflow-y:auto;
     overflow-x:hidden;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .08);
 }
 .right-container{
     width:840px;
-    height:723px;
+    height:630px;
     background:#f0f0f0;
     margin-left:2%;
+    position:relative;
 }
 .card-title{
     font-size:12px;
@@ -263,11 +259,11 @@ footer{
     background:#fff;
     margin-top:8px;
 }
-.card-2>.title{
+.card-2>.title,.card-3 .title{
     font-size:18px;
     padding-top:16px;
     padding-bottom:8px;
-    padding-left:30px;
+    padding-left:16px;
 }
 .card-details{
     padding:16px 0;
@@ -288,8 +284,82 @@ footer{
     color:#878787;
 }
 .greendot{
-    color: rgb(22, 190, 72);
+    background: rgb(22, 190, 72);
+    padding: 1px;
+    display: inline-block;
+    height: 5px;
+    width: 5px;
+    border-radius: 20px;
+    margin-right:6px;
 }
 .card-content{
     width:66%;
+}
+.card-3{
+    background:#fff;
+    margin-top:8px;
+}
+.card-details{
+    display:flex;
+    border-bottom: 2px solid #f9f9f9;
+    cursor: pointer;
+    padding:18px;
+    align-items:center;
+}
+.card-details .details{
+    display:flex;
+    flex-direction:column;
+}
+.card-details>.details>.head{
+    color:#212121;
+    font-size:14px;
+}
+.card-details>.details>.para{
+    color: #878787;
+    font-size: 12px;
+    margin-top: 4px;
+}
+.card-details>i{
+    margin-left:auto;
+    font-size:12px;
+}
+.postal{
+    margin-top: 11px;
+    margin-left: 2%;
+    font-size: 12px;
+    color: #878787;
+    font-weight: 500;
+}
+.postal a,.main-footer-content>.para>a{
+    text-decoration:none;
+    color:#2874f0;
+}
+.card-1,.card-2,.card-3{
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .08);
+}
+.main-footer{
+    border-top:1px solid #ddd;
+    background:#fff;
+}
+.main-footerDiv{
+    padding:30px 25px;
+}
+.main-footer-content{
+    font-size:11px;
+    color:#878787;
+    line-height:16px;
+}
+.chatbotDiv{
+    position:fixed;
+    top:86vh;
+    right:0vw;
+    cursor:pointer;
+}
+.left-container>.card-link:hover{
+    background:#f5faff;
+    color:#5793f3;
+}
+.card-3>.card-details:hover{
+    background:#f5faff;
 }
