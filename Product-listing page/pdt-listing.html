@@ -22,7 +22,7 @@
 		    </li>
 		    <li class="nav-item searchbar">
 			<div class="searchDiv d-flex">
-			    <input type="text" placeholder="Search for products">
+			    <input type="text" placeholder="Search for products, brands and more">
 			    <i class="fa-solid fa-magnifying-glass"></i>
 			</div>
 		    </li>
@@ -74,22 +74,464 @@
 	</header>
 
 	<main>
-	    <div class="main-container">
+	    <div class="main-container d-flex">
 		<div class="container-left">
 		    <div class="card">
-			<p class="Filters">Filters</p>
-			<div class="categories">
+			<div class="leftDiv">
+			    <p class="Filters">Filters</p>
+			</div>
+			<div class="categories leftDiv">
 			    <p class="title">CATEGORIES</p>
 			    <p class="text-light"><i class="fa-solid fa-chevron-left"></i>Mobile & Accessories</p>
   			    <p class="text-bold">Mobiles</p>
 			</div>
-			<div class="price">
-			    <p class
+			<div class="priceDiv leftDiv">
+			    <p class="title leftbar-bold">PRICE</p>
+			    <div class="rangeDiv">
+				<input type="range">
+				<div class="range d-flex">
+				    <select name="price" class="price">
+					<option value="Min">Min</option>
+					<option>₹10000</option>
+					<option>₹20000</option>
+					<option>₹30000</option>
+				    </select>
+				    <span class="text-light">to</span>
+				    <select name="price" class="price">
+					<option>₹10000</option>
+					<option>₹20000</option>
+					<option>₹30000</option>
+					<option selected>₹30000+</option>
+				    </select>
+				</div>
+			    </div>
 			</div>
+			<div class="brandDiv leftDiv">
+			    <div class="d-flex head">
+				<p class="leftbar-bold">BRAND</p>
+				<i class="fa-solid fa-chevron-up"></i>
+			    </div>
+			    <div class="d-flex detailsDiv">
+				<input type="checkbox" class="left-checkbox">
+				<p class="name">MOTOROLA</p>
+			    </div>
+			</div>
+			<div class="assuredDiv d-flex leftDiv">
+			    <input type="checkbox" class="left-checkbox">
+			    <img src="assets/images/assured.png" alt="assured" width="77" height="21">
+			    <i class="bi bi-question-circle"></i>
+			</div>
+			<div class="ratingDiv leftDiv flex-column">
+			    <div class="d-flex head">
+				<p class="leftbar-bold">CUSTOMER RATINGS</p>
+				<i class="fa-solid fa-chevron-up"></i>
+			    </div>
+			    <div class="detailsDiv">
+				<div class="details d-flex">
+				    <input type="checkbox" class="left-checkbox">
+				    <p class="rating d-flex">4<i class="bi bi-star-fill"></i> <span class>& above</span></p>
+				</div>
+				<div class="details d-flex">
+				    <input type="checkbox" class="left-checkbox">
+				    <p class="rating d-flex">3<i class="bi bi-star-fill"></i> <span class>& above</span></p>
+				</div>
+			    </div>
+			</div>
+			<div class="leftDiv d-flex">
+			    <p class="leftbar-bold">GST INVOICE AVAILABLE</p>
+			    <i class="fa-solid fa-chevron-down"></i>
+			</div>
+			<div class="leftDiv d-flex">
+			    <p class="leftbar-bold">RAM</p>
+			    <i class="fa-solid fa-chevron-down"></i>
+			</div>
+			<div class="leftDiv d-flex">
+			    <p class="leftbar-bold">INTERNAL STORAGE</p>
+			    <i class="fa-solid fa-chevron-down"></i>
+			</div>
+			<div class="leftDiv d-flex">
+			    <p class="leftbar-bold">BATTERY CAPACITY</p>
+			    <i class="fa-solid fa-chevron-down"></i>
+			</div>
+			<div class="leftDiv d-flex">
+			    <p class="leftbar-bold">SCREEN SIZE</p>
+			    <i class="fa-solid fa-chevron-down"></i>
+			</div>
+    			<div class="leftDiv d-flex">
+			    <p class="leftbar-bold">PRIMARY CAMERA</p>
+			    <i class="fa-solid fa-chevron-down"></i>
+			</div>
+			<div class="leftDiv d-flex">
+			    <p class="leftbar-bold">SECONDARY CAMERA</p>
+			    <i class="fa-solid fa-chevron-down"></i>
+			</div>
+			<div class="leftDiv d-flex">
+			    <p class="leftbar-bold">PROCESSOR BRAND</p>
+			    <i class="fa-solid fa-chevron-down"></i>
+			</div>
+			<div class="leftDiv d-flex">
+			    <p class="leftbar-bold">SPECIALITY</p>
+			    <i class="fa-solid fa-chevron-down"></i>
+			</div>
+			<div class="leftDiv d-flex">
+			    <p class="leftbar-bold">RESOLUTION TYPE</p>
+			    <i class="fa-solid fa-chevron-down"></i>
+			</div>
+			<div class="leftDiv d-flex">
+			    <p class="leftbar-bold">OPERATING SYSTEM</p>
+			    <i class="fa-solid fa-chevron-down"></i>
+			</div>
+			<div class="leftDiv d-flex">
+			    <p class="leftbar-bold">NETWORK TYPE</p>
+			    <i class="fa-solid fa-chevron-down"></i>
+			</div>
+			<div class="leftDiv d-flex">
+			    <p class="leftbar-bold">SIM TYPE</p>
+			    <i class="fa-solid fa-chevron-down"></i>
+			</div>
+			<div class="leftDiv d-flex">
+			    <p class="leftbar-bold">OFFERS</p>
+			    <i class="fa-solid fa-chevron-down"></i>
+			</div>
+			<div class="leftDiv d-flex">
+			    <p class="leftbar-bold">FEATURES</p>
+			    <i class="fa-solid fa-chevron-down"></i>
+			</div>
+			<div class="leftDiv d-flex">
+			    <p class="leftbar-bold">TYPE</p>
+			    <i class="fa-solid fa-chevron-down"></i>
+			</div>
+			<div class="leftDiv d-flex">
+			    <p class="leftbar-bold">NUMBER OF CORES</p>
+			    <i class="fa-solid fa-chevron-down"></i>
+			</div>
+			<div class="leftDiv d-flex">
+			    <p class="leftbar-bold">AVAILABILITY</p>
+			    <i class="fa-solid fa-chevron-down"></i>
+			</div>
+			<div class="leftDiv d-flex">
+			    <p class="leftbar-bold">DISCOUNT</p>
+			    <i class="fa-solid fa-chevron-down"></i>
+			</div>
+			<div class="leftDiv d-flex">
+			    <p class="leftbar-bold">CLOCK SPEED</p>
+			    <i class="fa-solid fa-chevron-down"></i>
+			</div>
+		    </div>
+			
+		    <div class="helpDiv d-flex flex-column align-items-center">
+			<p>Need help?</p>
+			<p class="text-blue">Help me decide ></p>
+           		<img src="assets/images/helpimage.png" alt="book" width="103" height="54">
 		    </div>
 		</div>
 		<div class="container-right">
-	
+		    <div class="card">
+			<div class="top-nav">
+			    <div class="section-1 d-flex">
+				<p><a href class="link-blue">Home</a> > <a href="" class="link-blue"><div class="text-truncate">Mobiles & Accessories</div></a>  > <a href="" class="link-blue">Mobiles</a></p>
+			    </div>
+			    <div class="section-2 d-flex">
+				<p class="fw-500">Motorola Edge 50 Fusion</p>
+				<p class="text-light">(Showing 1-6 products of 6 products)</p>
+			    </div>
+			    <div class="section-3 d-flex">
+ 				<p class="title fw-500">Sort By</p>
+				<div class="active ms-3 fw-500">Popularity</div>
+				<div class="ms-3">Price -- Low to High</div>
+				<div class="ms-3">Price -- High to Low</div>
+				<div class="ms-3">Newest first</div>
+			    </div>	
+		    	</div>
+			<div class="product-containerDiv">
+			    <div class="product-container d-flex">
+				<div class="model-image">
+				    <div class="bestseller">Bestseller</div>
+				    <div class="imageDiv d-flex"><img src="assets/images/moto.webp" alt="moto" width="158" height="200" class="m-auto"></div>
+				    <div class="compare d-flex">
+					<input type="checkbox" class="left-checkbox">
+					<p>Add to Compare</p>
+					<div class="wishlist-icon"><i class="bi bi-heart-fill"></i></div>
+				    </div>
+				</div>
+				<div class="model-details d-flex">
+				    <div class="detailsDiv">
+					<div class="nameDiv">
+					    <p class="name fw-500">Motorola Edge 50 Fusion (Marshmallow Blue, 256 GB)</p>
+					    <p class="text-light d-flex fw-700"><span class="rating">4.5 <i class="bi bi-star-fill"></i></span> 51,658 Ratings & 3,540 Reviews</p>
+					</div>
+					<div class="specDiv">
+					    <ul>
+						<li>12 GB RAM | 256 GB ROM</li>
+						<li>17.02 cm (6.7 inch) Full HD+ Display</li>
+						<li>50MP + 13MP | 32MP Front Camera</li>
+						<li>5000 mAh Battery</li>
+						<li>7s Gen 2 Processor</li>
+						<li>1 Year on Handset and 6 Months on Accessories</li>
+					    </ul>
+					</div>
+				    </div>
+				    <div class="priceDiv">
+					<div class="d-flex align-items-center">
+					    <p class="fw-500 price-org">₹22,999</p>
+					    <img src="assets/images/assured.png" alt="assured" width="77" height="21" class="m-auto">
+					</div>
+					<div class="d-flex">
+					    <del class="text-light me-2">₹27,999</del>
+					    <p class="text-green fw-500">17% off</p>
+					</div>
+					<div class="d-flex flex-column">
+					    <p>Free delivery</p>
+					    <a href="" class="fw-500 text-decoration-none">Saver Deal</a>
+					    <p class="exchange">Upto <b>₹14,200</b> Off on Exchange</p>
+					</div>
+				    </div>
+				</div>
+			    </div>
+			</div>
+
+			
+			<div class="product-containerDiv">
+			    <div class="product-container d-flex">
+				<div class="model-image">
+				    <div class="imageDiv d-flex"><img src="assets/images/moto2.jpeg" alt="moto" width="158" height="200" class="m-auto"></div>
+				    <div class="compare d-flex">
+					<input type="checkbox" class="left-checkbox">
+					<p>Add to Compare</p>
+					<div class="wishlist-icon"><i class="bi bi-heart-fill"></i></div>
+				    </div>
+				</div>
+				<div class="model-details d-flex">
+				    <div class="detailsDiv">
+					<div class="nameDiv">
+					    <p class="name fw-500">Motorola Edge 50 Fusion (Hot Pink, 256 GB)</p>
+					    <p class="text-light d-flex fw-700"><span class="rating">4.5 <i class="bi bi-star-fill"></i></span> 51,658 Ratings & 3,540 Reviews</p>
+					</div>
+					<div class="specDiv">
+					    <ul>
+						<li>12 GB RAM | 256 GB ROM</li>
+						<li>17.02 cm (6.7 inch) Full HD+ Display</li>
+						<li>50MP + 13MP | 32MP Front Camera</li>
+						<li>5000 mAh Battery</li>
+						<li>7s Gen 2 Processor</li>
+						<li>1 Year on Handset and 6 Months on Accessories</li>
+					    </ul>
+					</div>
+				    </div>
+				    <div class="priceDiv">
+					<div class="d-flex align-items-center">
+					    <p class="fw-500 price-org">₹22,999</p>
+					    <img src="assets/images/assured.png" alt="assured" width="77" height="21" class="m-auto">
+					</div>
+					<div class="d-flex">
+					    <del class="text-light me-2">₹27,999</del>
+					    <p class="text-green fw-500">17% off</p>
+					</div>
+					<div class="d-flex flex-column">
+					    <p>Free delivery</p>
+					    <a href="" class="fw-500 text-decoration-none">Saver Deal</a>
+					    <p class="text-alert"><b>Only 7 left</b></p>
+					</div>
+				    </div>
+				</div>
+			    </div>
+			</div>
+
+			<div class="product-containerDiv">
+			    <div class="product-container d-flex">
+				<div class="model-image">
+				    <div class="imageDiv d-flex"><img src="assets/images/moto2.jpeg" alt="moto" width="158" height="200" class="m-auto"></div>
+				    <div class="compare d-flex">
+					<input type="checkbox" class="left-checkbox">
+					<p>Add to Compare</p>
+					<div class="wishlist-icon"><i class="bi bi-heart-fill"></i></div>
+				    </div>
+				</div>
+				<div class="model-details d-flex">
+				    <div class="detailsDiv">
+					<div class="nameDiv">
+					    <p class="name fw-500">Motorola Edge 50 Fusion (Marshmallow Blue, 256 GB)</p>
+					    <p class="text-light d-flex fw-700"><span class="rating">4.5 <i class="bi bi-star-fill"></i></span> 51,658 Ratings & 3,540 Reviews</p>
+					</div>
+					<div class="specDiv">
+					    <ul>
+						<li>12 GB RAM | 256 GB ROM</li>
+						<li>17.02 cm (6.7 inch) Full HD+ Display</li>
+						<li>50MP + 13MP | 32MP Front Camera</li>
+						<li>5000 mAh Battery</li>
+						<li>7s Gen 2 Processor</li>
+						<li>1 Year on Handset and 6 Months on Accessories</li>
+					    </ul>
+					</div>
+				    </div>
+				    <div class="priceDiv">
+					<div class="d-flex align-items-center">
+					    <p class="fw-500 price-org">₹22,999</p>
+					    <img src="assets/images/assured.png" alt="assured" width="77" height="21" class="m-auto">
+					</div>
+					<div class="d-flex">
+					    <del class="text-light me-2">₹27,999</del>
+					    <p class="text-green fw-500">17% off</p>
+					</div>
+					<div class="d-flex flex-column">
+					    <p>Free delivery</p>
+					    <a href="" class="fw-500 text-decoration-none">Saver Deal</a>
+					    <p class="exchange">Upto <b>₹14,200</b> Off on Exchange</p>
+					</div>
+				    </div>
+				</div>
+			    </div>
+			</div>
+
+			<div class="product-containerDiv">
+			    <div class="product-container d-flex">
+				<div class="model-image">
+				    <div class="imageDiv d-flex"><img src="assets/images/moto3.webp" alt="moto" width="158" height="200" class="m-auto"></div>
+				    <div class="compare d-flex">
+					<input type="checkbox" class="left-checkbox">
+					<p>Add to Compare</p>
+					<div class="wishlist-icon"><i class="bi bi-heart-fill"></i></div>
+				    </div>
+				</div>
+				<div class="model-details d-flex">
+				    <div class="detailsDiv">
+					<div class="nameDiv">
+					    <p class="name fw-500">Motorola Edge 50 Fusion (Marshmallow Blue, 256 GB)</p>
+					    <p class="text-light d-flex fw-700"><span class="rating">4.5 <i class="bi bi-star-fill"></i></span> 51,658 Ratings & 3,540 Reviews</p>
+					</div>
+					<div class="specDiv">
+					    <ul>
+						<li>12 GB RAM | 256 GB ROM</li>
+						<li>17.02 cm (6.7 inch) Full HD+ Display</li>
+						<li>50MP + 13MP | 32MP Front Camera</li>
+						<li>5000 mAh Battery</li>
+						<li>7s Gen 2 Processor</li>
+						<li>1 Year on Handset and 6 Months on Accessories</li>
+					    </ul>
+					</div>
+				    </div>
+				    <div class="priceDiv">
+					<div class="d-flex align-items-center">
+					    <p class="fw-500 price-org">₹22,999</p>
+					    <img src="assets/images/assured.png" alt="assured" width="77" height="21" class="m-auto">
+					</div>
+					<div class="d-flex">
+					    <del class="text-light me-2">₹27,999</del>
+					    <p class="text-green fw-500">17% off</p>
+					</div>
+					<div class="d-flex flex-column">
+					    <p>Free delivery</p>
+					    <a href="" class="fw-500 text-decoration-none">Saver Deal</a>
+					    <p class="exchange">Upto <b>₹14,200</b> Off on Exchange</p>
+					</div>
+				    </div>
+				</div>
+			    </div>
+			</div>
+
+			<div class="product-containerDiv">
+			    <div class="product-container d-flex">
+				<div class="model-image">
+				    <div class="imageDiv d-flex"><img src="assets/images/moto3.webp" alt="moto" width="158" height="200" class="m-auto"></div>
+				    <div class="compare d-flex">
+					<input type="checkbox" class="left-checkbox">
+					<p>Add to Compare</p>
+					<div class="wishlist-icon"><i class="bi bi-heart-fill"></i></div>
+				    </div>
+				</div>
+				<div class="model-details d-flex">
+				    <div class="detailsDiv">
+					<div class="nameDiv">
+					    <p class="name fw-500">Motorola Edge 50 Fusion (Marshmallow Blue, 256 GB)</p>
+					    <p class="text-light d-flex fw-700"><span class="rating">4.5 <i class="bi bi-star-fill"></i></span> 51,658 Ratings & 3,540 Reviews</p>
+					</div>
+					<div class="specDiv">
+					    <ul>
+						<li>12 GB RAM | 256 GB ROM</li>
+						<li>17.02 cm (6.7 inch) Full HD+ Display</li>
+						<li>50MP + 13MP | 32MP Front Camera</li>
+						<li>5000 mAh Battery</li>
+						<li>7s Gen 2 Processor</li>
+						<li>1 Year on Handset and 6 Months on Accessories</li>
+					    </ul>
+					</div>
+				    </div>
+				    <div class="priceDiv">
+					<div class="d-flex align-items-center">
+					    <p class="fw-500 price-org">₹22,999</p>
+					    <img src="assets/images/assured.png" alt="assured" width="77" height="21" class="m-auto">
+					</div>
+					<div class="d-flex">
+					    <del class="text-light me-2">₹27,999</del>
+					    <p class="text-green fw-500">17% off</p>
+					</div>
+					<div class="d-flex flex-column">
+					    <p>Free delivery</p>
+					    <a href="" class="fw-500 text-decoration-none">Saver Deal</a>
+					    <p class="exchange">Upto <b>₹14,200</b> Off on Exchange</p>
+					</div>
+				    </div>
+				</div>
+			    </div>
+			</div>
+
+			<div class="product-containerDiv">
+			    <div class="product-container d-flex">
+				<div class="model-image">
+				    <div class="imageDiv d-flex"><img src="assets/images/moto4.webp" alt="moto" width="158" height="200" class="m-auto"></div>
+				    <div class="compare d-flex">
+					<input type="checkbox" class="left-checkbox">
+					<p>Add to Compare</p>
+					<div class="wishlist-icon"><i class="bi bi-heart-fill"></i></div>
+				    </div>
+				</div>
+				<div class="model-details d-flex">
+				    <div class="detailsDiv">
+					<div class="nameDiv">
+					    <p class="name fw-500">Motorola Edge 50 Fusion (Marshmallow Blue, 256 GB)</p>
+					    <p class="text-light d-flex fw-700"><span class="rating">4.5 <i class="bi bi-star-fill"></i></span> 51,658 Ratings & 3,540 Reviews</p>
+					</div>
+					<div class="specDiv">
+					    <ul>
+						<li>12 GB RAM | 256 GB ROM</li>
+						<li>17.02 cm (6.7 inch) Full HD+ Display</li>
+						<li>50MP + 13MP | 32MP Front Camera</li>
+						<li>5000 mAh Battery</li>
+						<li>7s Gen 2 Processor</li>
+						<li>1 Year on Handset and 6 Months on Accessories</li>
+					    </ul>
+					</div>
+				    </div>
+				    <div class="priceDiv">
+					<div class="d-flex align-items-center">
+					    <p class="fw-500 price-org">₹22,999</p>
+					    <img src="assets/images/assured.png" alt="assured" width="77" height="21" class="m-auto">
+					</div>
+					<div class="d-flex">
+					    <del class="text-light me-2">₹27,999</del>
+					    <p class="text-green fw-500">17% off</p>
+					</div>
+					<div class="d-flex flex-column">
+					    <p>Free delivery</p>
+					    <a href="" class="fw-500 text-decoration-none">Saver Deal</a>
+					    <p class="exchange">Upto <b>₹14,200</b> Off on Exchange</p>
+					</div>
+				    </div>
+				</div>
+			    </div>
+			</div>
+
+		    </div>
+
+		    <div class="card card-bottom">
+			<div class="cardDiv d-flex">
+			    <p class="fw-500">Did you find what you were looking for?</p>
+			    <div class="btnDiv d-flex">
+				<button>Yes</button>
+				<button>No</button>
+			    </div>
+			</div>	
+		    </div>
 		</div>
 	    </div>
 	</main>
