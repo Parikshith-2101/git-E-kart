@@ -72,6 +72,9 @@ body{
 .p-0{
     padding:0;
 }
+.pe-2{
+    padding-right: 8px;;
+}
 .ps-3{
     padding-left:12px;
 }
@@ -320,11 +323,11 @@ main{
     min-width:92%;
     max-width:1366px;
     margin:auto;
-    background:#fff;
     overflow:hidden;
 }
 .main-section{
     padding:16px;
+    background: #fff;
 }
 .btn-container>button.btn{
     padding: 18px 8px;
@@ -695,6 +698,8 @@ button.cart{
 .secondary-container{
     padding:30px;
     margin-bottom:50px;
+    margin-top: 20px;;
+    background: #fff;
 }
 .similarProductshead{
     font-size:20px;
@@ -702,7 +707,7 @@ button.cart{
     padding-bottom:20px;
 }
 .similarProductcol{
-    width:20%;
+    width:15%;
     margin-right:20px;
     justify-content:space-between;
 }
@@ -825,6 +830,9 @@ button.cart{
   	white-space:nowrap;
 	overflow:hidden;
     }
+    .similarProductcol{
+        width: 20%;
+    }
 }
 @media screen and (min-width:769px){
     .d-lg-none{
@@ -833,9 +841,5 @@ button.cart{
     .right-container{
     	overflow-y:scroll;
    	 height:80vh;
-    }
-    .secondary-container{
-	border-top:20px solid #e0e0e0;
-	border-bottom:20px solid #e0e0e0;
     }
 }
