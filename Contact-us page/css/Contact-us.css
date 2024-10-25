@@ -1,0 +1,365 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    background: #f1f3f6;
+}
+
+.d-flex{
+    display:flex;
+}
+.flex-column{
+    flex-direction:column;
+}
+.flex-row{
+    flex-direction:row;
+}
+.m-0{
+    margin:0;
+}
+.p-0{
+    padding:0;
+}
+.nav-link{
+    text-decoration:none;
+}
+.navbar,.nav-item{
+    list-style-type:none;
+}
+.main-nav{
+    background:#2874f0;
+    position:fixed;
+    width:100%;
+    z-index:2;
+}
+.logoDiv>a{
+    color:#f0f0f0;
+    font-size:11px;
+    line-height:6px;
+}
+.plus{
+    color:#ffe500;
+    font-weight:500;
+    margin-inline:2px;
+}
+i>img{
+    position:relative;
+    bottom:3px;
+}
+.searchDiv>i{
+    color: #2874f0;
+    position: relative;
+    right: 25px;
+    top: 10px;
+}
+.login-btn{
+    color:#2874f0;
+    font-weight:700;
+    background:#fff;
+    border:1px solid #dbdbdb;
+    height:32px;
+    border-radius:2px;
+    padding:5px 40px;
+}
+.nav-btn{
+    color:#fff;
+    font-size:16px;
+    letter-spacing: .1px;
+    font-weight:500;
+    display:flex;
+    align-items:center;
+}
+ul.header{
+    justify-content:center;
+    padding:10px;
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+}
+li.login~.nav-item{
+    padding-left:30px;
+}
+.help-center{
+    padding-left:15px;
+    width:33%;
+    color:#f0f0f0;
+}
+.help-center div{
+    width:100%;
+    border-left: 1px solid hsla(0, 0%, 100%, .7);
+}
+.helpcenter{
+    padding-left:10px;
+    font-weight:500;
+}
+i.bi.bi-chevron-down{
+    font-size:10px;
+    padding-left:5px;
+}
+.sub-nav{
+    display:flex;
+    justify-content:center;
+    background:#fff;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .16);
+    position:relative;
+    top:56px;
+}
+.sub-header{
+    justify-content:space-between;
+    width:90%;
+    padding:10px;
+}
+.sub-nav-item>a{
+    font-weight:500;
+    color:#000000;
+    font-size:14px;
+}
+header{
+    position:relative;
+    margin-bottom:60px;
+}
+.sub-nav-item .nav-link:hover{
+    color:#2874f0;
+}
+
+
+/*footer*/
+footer{
+    background:#172337;
+}
+.footer{
+    justify-content:center;
+    padding-top:40px;
+}
+.footer-top{
+    width:90%;
+}
+.footer-left{
+    width:55%;
+}
+.footer-right{
+    width:45%;
+}
+.footer-content{
+    width:25%;
+}
+.footer-heading{
+    color:#878787;
+    font-size:12px;
+    font-weight:400;
+    margin-bottom:8px;
+}
+.footer-link{
+    text-decoration:none;
+    color:#fff;
+    font-size:12px;
+    font-weight:400;
+    line-height:2;
+}
+.contentDiv{
+    width:50%;
+}
+.address .footer-link,.contentDiv .footer-link{
+    line-height:18px;
+}
+.phno{
+    color:#2874f0; 
+}
+.cont-ad{
+    border-left:1px solid #454d5e;
+    padding:0 25px;
+}
+.footer-social{
+    margin-top:15px;
+}
+.footer-bottom{
+    border-top: 1px solid #454d5e;
+    padding: 25px 0;
+    margin-top: 40px;
+    width:100%;
+    justify-content:space-evenly;
+}
+.bottom-content{
+    display:flex;
+    align-items:center;
+}
+.bottom-link{
+    text-decoration:none;
+    color:#fff;
+    font-size:14px;
+    padding-left:5px;
+}
+.footer-content .footer-link:hover{
+    text-decoration:underline;
+}
+
+/*main*/
+.main-content{
+    padding:14px 95px 0;
+    margin:0 auto 2px;
+}
+.content-title{
+    font-size:18px;
+    color:#212121;
+    font-weight:500;
+}
+.content-para{
+    font-size:12px;
+    color:#878787;
+    margin-top:8px;
+}
+.helpcenterDiv{
+    margin-bottom:14px;
+}
+.left-container{
+    width:290px;
+    height:560px;
+    background:#fff;
+    overflow-y:auto;
+    overflow-x:hidden;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .08);
+}
+.right-container{
+    width:840px;
+    height:630px;
+    background:#f0f0f0;
+    margin-left:2%;
+    position:relative;
+}
+.card-title{
+    font-size:12px;
+    padding:22px 16px 0 32px;
+    color:#212121;
+    font-weight:500;
+    margin-bottom:14px;
+}
+.card-link{
+    padding: 13px 48px;
+    text-decoration:none;
+    color:#212121;
+    font-size:14px;
+}
+.vr{
+    height:1px;
+    background: #f0f0f0;
+    margin-top: 10px;
+    padding:0.5px;
+}
+.card-1 p{
+    font-size:12px;
+    color:#878787;
+    background:#fff;
+    padding:16px 19px;
+}
+.card-2{
+    background:#fff;
+    margin-top:8px;
+}
+.card-2>.title,.card-3 .title{
+    font-size:18px;
+    padding-top:16px;
+    padding-bottom:8px;
+    padding-left:16px;
+}
+.card-details{
+    padding:16px 0;
+}
+.card-details .d-flex{
+    width:16.5%;
+}
+.card-details>div>img{
+    margin-inline:auto;
+}
+.card-details .title{
+    font-size:14px;
+    padding-bottom:6px;
+}
+.delivery{
+    font-size:14px;
+    margin-top:2px;
+    color:#878787;
+}
+.greendot{
+    background: rgb(22, 190, 72);
+    padding: 1px;
+    display: inline-block;
+    height: 5px;
+    width: 5px;
+    border-radius: 20px;
+    margin-right:6px;
+}
+.card-content{
+    width:66%;
+}
+.card-3{
+    background:#fff;
+    margin-top:8px;
+}
+.card-details{
+    display:flex;
+    border-bottom: 2px solid #f9f9f9;
+    cursor: pointer;
+    padding:18px;
+    align-items:center;
+}
+.card-details .details{
+    display:flex;
+    flex-direction:column;
+}
+.card-details>.details>.head{
+    color:#212121;
+    font-size:14px;
+}
+.card-details>.details>.para{
+    color: #878787;
+    font-size: 12px;
+    margin-top: 4px;
+}
+.card-details>i{
+    margin-left:auto;
+    font-size:12px;
+}
+.postal{
+    margin-top: 11px;
+    margin-left: 2%;
+    font-size: 12px;
+    color: #878787;
+    font-weight: 500;
+}
+.postal a,.main-footer-content>.para>a{
+    text-decoration:none;
+    color:#2874f0;
+}
+.card-1,.card-2,.card-3{
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .08);
+}
+.main-footer{
+    border-top:1px solid #ddd;
+    background:#fff;
+}
+.main-footerDiv{
+    padding:30px 25px;
+}
+.main-footer-content{
+    font-size:11px;
+    color:#878787;
+    line-height:16px;
+}
+.chatbotDiv{
+    position:fixed;
+    top:86vh;
+    right:0vw;
+    cursor:pointer;
+}
+.left-container>.card-link:hover{
+    background:#f5faff;
+    color:#5793f3;
+}
+.card-3>.card-details:hover{
+    background:#f5faff;
+}
